@@ -11,3 +11,8 @@ async def creat_items(item: dict): #Async allows the program to handle multiple 
 @app.get ("/items", status_code=200)
 async def read_items():
     return {"items": [...]}
+
+
+@app.put ("/items", status_code=200)
+async def update_items(item_id:int, item: dict):
+    return 
