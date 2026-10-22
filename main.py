@@ -13,6 +13,6 @@ async def read_items():
     return {"items": [...]}
 
 
-@app.put ("/items", status_code=200)
+@app.put ("/items/{item_id}", status_code=200)
 async def update_items(item_id:int, item: dict):
-    return 
+    return item 
