@@ -16,3 +16,8 @@ async def read_items():
 @app.put ("/items/{item_id}", status_code=200)
 async def update_items(item_id:int, item: dict):
     return item 
+
+
+@app.delete ("/items/{item_id}", status_code=204)
+async def 
+
