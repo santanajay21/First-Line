@@ -19,5 +19,7 @@ async def update_items(item_id:int, item: dict):
 
 
 @app.delete ("/items/{item_id}", status_code=204)
-async def 
+async def delete_items(item_id:int)
 
+
+    
